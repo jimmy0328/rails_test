@@ -1,13 +1,11 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-apple:
-  title: apple pen
-  description: A apple a day keep the Dr. away
+one:
+  title: apple
+  description: MyText
   image_url: apple.jpg
-  price: 1
-
-pineapple:
-  title: pineapple pen
-  description: A pineapple a day...no way
+  price: 9
+two:
+  title: pineapple
+  description: MyText
   image_url: pineapple.jpg
-  price: 3
+  price: 9

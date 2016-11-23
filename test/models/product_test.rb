@@ -30,7 +30,7 @@ class ProductTest < ActiveSupport::TestCase
 
 
   test "title is uniqueness" do
-    product = Product.new(title: products(:apple).title, description: "yyy", price: 1, image_url: 'pineapple.jpg')
+    product = Product.new(title: products(:one).title, description: "yyy", price: 1, image_url: 'pineapple.jpg')
     assert product.invalid?
     assert_equal ["has already been taken"], product.errors[:title]
   end
