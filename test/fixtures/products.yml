@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  title: MyString
-  description: MyText
-  image_url: MyString
+apple:
+  title: apple pen
+  description: A apple a day keep the Dr. away
+  image_url: apple.jpg
   price: 1
 
-two:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 1
+pineapple:
+  title: pineapple pen
+  description: A pineapple a day...no way
+  image_url: pineapple.jpg
+  price: 3
